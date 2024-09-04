@@ -13,6 +13,7 @@ import { fetchDocs } from '../../_api/fetchDocs'
 import { Blocks } from '../../_components/Blocks'
 import { Hero } from '../../_components/Hero'
 import { generateMeta } from '../../_utilities/generateMeta'
+import Image from 'next/image'
 
 // Payload Cloud caches all files through Cloudflare, so we don't need Next.js to cache them as well
 // This means that we can turn off Next.js data caching and instead rely solely on the Cloudflare CDN
@@ -56,9 +57,11 @@ export default async function Page({ params: { slug = 'home' } }) {
     <React.Fragment>
       <header>
         <div className="logo">
-          <img
+          <Image
             src="https://cdn.shopify.com/s/files/1/0693/1929/5190/files/logomark.png?v=1725363837"
             alt="logo"
+            width={100}
+            height={100}
           />
         </div>
         <nav>
@@ -80,11 +83,11 @@ export default async function Page({ params: { slug = 'home' } }) {
       </header>
 
       <section className="hero-section">
-        <img
+        <Image
           src="https://cdn.shopify.com/s/files/1/0693/1929/5190/files/heroBanner.png?v=1725362668"
           alt="Serene Tree"
-          height={'50%'}
-          width={'100%'}
+          height={50}
+          width={100}
         />
         <div className="banner-content">
           {' '}
@@ -107,9 +110,11 @@ export default async function Page({ params: { slug = 'home' } }) {
         </div>
         <div className="features">
           <div className="feature">
-            <img
+            <Image
               src="https://cdn.shopify.com/s/files/1/0693/1929/5190/files/icon-read.svg?v=1725363837"
               alt="firstFeature"
+              width={100}
+              height={100}
             />
             <div className="feature-in">
               {' '}
@@ -121,9 +126,11 @@ export default async function Page({ params: { slug = 'home' } }) {
             </div>
           </div>
           <div className="feature">
-            <img
+            <Image
               src="https://cdn.shopify.com/s/files/1/0693/1929/5190/files/icon-read.svg?v=1725363837"
               alt="secondFeature"
+              width={100}
+              height={100}
             />
             <div className="feature-in">
               {' '}
@@ -135,9 +142,11 @@ export default async function Page({ params: { slug = 'home' } }) {
             </div>
           </div>
           <div className="feature">
-            <img
+            <Image
               src="https://cdn.shopify.com/s/files/1/0693/1929/5190/files/icon-read.svg?v=1725363837"
               alt="thirdFeature"
+              width={100}
+              height={100}
             />
             <div className="feature-in">
               {' '}
@@ -175,9 +184,11 @@ export default async function Page({ params: { slug = 'home' } }) {
           <div className="value-card">
             <h3>Making insurance accessible</h3>
             <div className="value-txt">
-              <img
+              <Image
                 src="https://cdn.shopify.com/s/files/1/0693/1929/5190/files/insurance-accessible.svg?v=1725363837"
                 alt="coreOne"
+                width={100}
+                height={100}
               />
               <p>
                 We address rising medical costs by providing predictable rates through advanced
@@ -190,9 +201,11 @@ export default async function Page({ params: { slug = 'home' } }) {
             <h3>Transparency and accountability</h3>
             <div className="value-txt">
               {' '}
-              <img
+              <Image
                 src="https://cdn.shopify.com/s/files/1/0693/1929/5190/files/trans-acc.svg?v=1725363838"
                 alt="coreOne"
+                width={100}
+                height={100}
               />
               <p>
                 We prioritise clear policy language and reliable claims payments to build trust. Our
@@ -206,9 +219,11 @@ export default async function Page({ params: { slug = 'home' } }) {
             <h3>Integrity and professional responsibility</h3>
             <div className="value-txt">
               {' '}
-              <img
+              <Image
                 src="https://cdn.shopify.com/s/files/1/0693/1929/5190/files/responsibility.svg?v=1725363838"
                 alt="coreOne"
+                width={100}
+                height={100}
               />
               <p>
                 We uphold the highest standards in protecting individuals and maintaining market
@@ -258,9 +273,11 @@ export default async function Page({ params: { slug = 'home' } }) {
           </div>
           <div className="plans-img">
             {' '}
-            <img
+            <Image
               src="https://cdn.shopify.com/s/files/1/0693/1929/5190/files/serenity-plus-img.jpg?v=1725363840"
               alt="SerenityPlus"
+              width={100}
+              height={100}
             />
           </div>
         </div>
@@ -270,9 +287,11 @@ export default async function Page({ params: { slug = 'home' } }) {
         <h2>Latest on LinkedIn</h2>
         <div className="linkedin-posts">
           <div className="post">
-            <img
+            <Image
               src="https://cdn.shopify.com/s/files/1/0693/1929/5190/files/blog-img1.jpg?v=1725363839"
               alt="linkedIn"
+              width={100}
+              height={100}
             />
             <p className="date">12 Aug 2024</p>
             <p className="blog-txt">
@@ -283,9 +302,11 @@ export default async function Page({ params: { slug = 'home' } }) {
             </p>
           </div>
           <div className="post">
-            <img
+            <Image
               src="https://cdn.shopify.com/s/files/1/0693/1929/5190/files/blog-img2.jpg?v=1725363839"
               alt="post"
+              width={100}
+              height={100}
             />
             <p className="date">5 Sep 2024</p>
             <p className="blog-txt">
@@ -296,9 +317,11 @@ export default async function Page({ params: { slug = 'home' } }) {
             </p>
           </div>
           <div className="post">
-            <img
+            <Image
               src="https://cdn.shopify.com/s/files/1/0693/1929/5190/files/blog-img3.jpg?v=1725363839"
               alt="post"
+              height={100}
+              width={100}
             />
             <p className="date">20 Sep 2024</p>
             <p className="blog-txt">
@@ -327,9 +350,11 @@ export default async function Page({ params: { slug = 'home' } }) {
       <footer>
         <div className="partners">
           <p>In partnership with</p>
-          <img
+          <Image
             src="https://cdn.shopify.com/s/files/1/0693/1929/5190/files/logomark-msig.svg?v=1725363837"
             alt="MSIG"
+            width={100}
+            height={100}
           />
         </div>
         <ul className="footer-link">
