@@ -1,0 +1,497 @@
+// Custom created
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+/* General Styles */
+
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #f7f7f7;
+  }
+  
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+  }
+  
+  header nav ul li a {
+    font-weight: 500;
+    font-size: 16px;
+    color: #333;
+    padding: 10px 15px;
+  }
+  
+  header nav ul li a:hover {
+    color: #007bff;
+  }
+  
+  header input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    position: relative;
+    text-align: left;
+    color: #333;
+  }
+  
+  .hero-section img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .hero-section h1 {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    transform: translateY(-50%);
+    font-size: 48px;
+    max-width: 450px;
+    line-height: 1.2;
+    color: #4a4a4a;
+  }
+  
+  .hero-section button {
+    position: absolute;
+    top: 55%;
+    left: 15%;
+    padding: 15px 30px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .hero-section button:hover {
+    // background-color: #0056b3;
+  }
+  
+  /* Introduction Section */
+  .introduction-section {
+    padding: 160px 50px;
+    background-color: #fff;
+    text-align: center;justify-content: space-between;
+  }
+  
+  .introduction-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .introduction-section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #666;
+  }
+  
+  .introduction-section .features {
+    display: flex;
+    justify-content: center;
+    gap: 40px;margin: 0 290px 0 auto;
+  }
+  
+  .introduction-section .features .feature {
+    max-width: 300px;
+    text-align: left;
+  }
+  
+  .introduction-section .features .feature h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .introduction-section .features .feature p {
+    font-size: 16px;
+    color: #666;
+  }
+
+  .work-section {
+    padding: 80px 40px;
+    background-color: #4a2962;
+    color: #fff;
+  }
+  
+  /* Core Values Section */
+  .core-values-section {
+    padding: 80px 40px;
+    // background-color: #4a2962;
+    // color: #fff;
+  }
+  
+  .core-values-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .core-values-section .values {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .core-values-section .values .value-card {
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+    // background-color: #5b3b73;
+    border-radius: 8px;padding-left: 0;
+  }
+  
+  .core-values-section .values .value-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .core-values-section .values .value-card p {
+    font-size: 16px;
+    color: black;
+  }
+  
+  /* Plans Section */
+  .plans-section {
+    padding: 60px 40px;
+    background-color: #f7f7f7;
+  }
+  
+  .plans-section h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .plans-section .plans {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .plans-section .plans .plan-card {
+    flex: 1 1 calc(25% - 20px);
+    background-color: #fff;
+    padding: 0 20px 20px 0;
+    text-align: center;
+    border-radius: 8px;
+    // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .plans-section .plans .plan-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .plans-section .plans .plan-card p {
+    font-size: 14px; text-align: left;line-height: 19.6px;
+  
+  }
+  
+  /* LinkedIn Section */
+  .linkedin-section {
+    padding: 90px 95px;
+    background-color: #fff;
+  }
+  
+  .linkedin-section h2 {
+    margin: 0 0 50px 0;
+    line-height: 1;
+    text-align: left;
+    font-weight: 300;
+    font-size: 40px;
+  }
+  
+  .linkedin-section .linkedin-posts {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .linkedin-section .linkedin-posts .post {
+    flex: 1 1 calc(33% - 20px);
+   
+    padding: 0;
+
+
+  }
+  .linkedin-section .linkedin-posts .post img{border-radius: 12px; display: block;}
+  /* Contact Section */
+  .contact-section {
+    padding: 185px 95px;
+    background-color: #4a2962;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    color: #fff;
+  }
+  
+  .contact-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;font-weight: 300; color:#F8F8FF;line-height:  26.4px;margin-top: 0;
+  }
+  
+  .contact-section p {
+    font-size: 48px;
+    margin-bottom: 30px;line-height: 48px; font-weight: 300;
+    color:  #F8F8FF;
+  }
+  
+  .contact-section button {
+    padding: 16px 24px;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    color: #490F55;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 14px;
+  }
+  
+  .contact-section button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer */
+  footer {
+    padding: 40px;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 12px;font-weight: 300;
+    margin:0;line-height: 1;
+  }
+  
+  footer .partners {
+    margin: 0 auto 80px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+  footer .partners img {
+    width: 100px;
+  }
+  
+  footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;margin: 0;
+  }
+  
+ 
+  
+  footer ul li a:hover {
+    text-decoration: underline;
+  }
+  header .logo {max-width: 200px;}
+  header nav ul {margin: 0 auto;}
+  header {
+    position: absolute;
+    z-index: 1;
+    left: 40px;
+    right: 40px;
+    top: 30px;
+    border-radius: 8px;background: #fff;padding:17px 25px;
+}
+header nav ul li a{font-size: 12px; font-weight: 300; font-family: "Ubuntu", sans-serif;}
+header nav ul {gap:0}
+header input[type=text] {border-radius: 4px;
+  border: solid 1px #ccc;
+  padding: 10px 12px;
+  max-width: 68px;}
+  .banner-content h1 {
+    position: static;
+    margin: 0;transform: none;font-size: 54px; font-weight: 300; font-family: "Ubuntu", sans-serif;color:#490F55;line-height: 54px;margin-bottom: 0;
+}
+body, h1, h2, h3, h4, h5, h6, p, a, button{font-family: "Ubuntu", sans-serif;}
+.banner-content button {
+    position: static;background: #490F55;color: #fff;border-radius: 8px; padding: 16px 24px; box-sizing: border-box;font-size: 14px; font-weight: 400;
+}
+
+.banner-content {
+    position: absolute;
+    left: 55px;
+    bottom: 55px;
+    max-height: fit-content;
+}
+section.hero-section:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, #D5E1E3 13.48%, rgba(213, 225, 227, 0) 89.87%);max-width: 50%;
+}
+
+.banner-content {
+  z-index: 1;
+}
+.banner-content p{font-size: 14px; font-weight: 400;}
+.introduction-section {display: flex;align-items: center;}
+.into-text {
+  text-align: left;max-width: 400px;
+}
+.introduction-section h2{font-weight: 300; font-size: 40px; line-height: 44px;}
+body{font-size: 14px; font-weight: 400; color: #212528;}
+.introduction-section .into-text p {font-size: 14px; color: #212528;line-height: 1.2rem;margin-top: 15px;}
+.red-txt {color:#9F1D3F}
+.introduction-section .features {
+  flex-direction: column;
+}
+.introduction-section .features .feature {display: flex; align-items: center;max-width: 380px; width:100%; gap:30px}
+.introduction-section .features .feature h3 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 300;
+  line-height: 19.8px;
+}
+.introduction-section .features .feature p {
+  font-size: 12px;
+  color: #212528;
+  margin: 8px 0 0 0;
+  line-height: 1rem;
+}
+.into-text button {
+  background: #fff;
+  
+  padding: 15px 24px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  border: 1px solid #490F55;
+}
+.work-section {
+  padding: 160px 50px;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+.work-section h2{font-weight:300; font-size: 24px; color: #D9D9ED; margin: 0;}
+.work-section p{font-weight:300; font-size: 48px; color: #D9D9ED; line-height: 48px;}
+span.work-small {
+  font-weight: 400;
+ 
+  color: #D9D9ED;
+}
+.work-section-txt {max-width: 860px;}
+.core-values-section {
+  padding: 50px;
+}
+.core-values-section h2, .plans-section h2 {
+  margin: 0;
+  text-align: left;
+  font-weight: 300;
+  font-size: 24px;
+  color: #DD2830;
+  line-height: 1;
+}
+.core-values-section .values {
+  flex-direction: column; border-top: solid 1px #ccc;margin-top: 30px;
+}
+.core-values-section .values .value-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;max-width: none;border-bottom: solid #ccc 1px;
+}
+.value-txt {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin: 0 135px 0 auto;
+}
+.core-values-section .values .value-card h3 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 300;
+  max-width: 490px;
+  text-align: left;
+  line-height: 44px;
+}
+.core-values-section .values .value-card p {
+  font-size: 12px;
+  color: #212528;
+  text-align: left;
+  font-weight: 400;
+  line-height: 15.6px;
+  max-width: 265px;
+}
+.plans-section{padding: 50px;}
+.plans-wrap {
+  display: flex;
+  gap: 40px;
+}
+.plans-section .plans {flex-direction: column; min-width: 440px;    flex-wrap: nowrap;}
+.plans-section .plans .plan-card {background: transparent;}
+.plans-section h2 {border-bottom: solid 1px #212528;
+  margin-bottom: 30px; padding-bottom:30px ;}
+  .plans-img img {
+    display: block;
+    border-radius: 12px;
+}
+.plans-section .plans .plan-card h3 {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-weight: 300;
+  font-size: 28px;
+}
+.linkedin-section .linkedin-posts .post p.date {
+  
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  color: #490F55;
+  margin: 7px 0 0 0;
+}
+.linkedin-section .linkedin-posts .post p.blog-txt {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  margin: 0;
+  height: 60px;
+    overflow: hidden;
+  text-overflow: ellipsis;
+}
+.git-sec {
+  text-align: left;max-width: 550px;
+}
+.header-search {width:200px; text-align: right;}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: solid 1px #CCCCCC;
+  padding-top: 5px;margin-top: 15px;
+}
+footer ul li a {
+  color: #212528; font-size: 12px; font-weight: 300;
+}

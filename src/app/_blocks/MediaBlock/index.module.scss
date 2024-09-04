@@ -1,0 +1,25 @@
+
+.mediaBlock {
+  position: relative;
+}
+
+.caption {
+  color: var(--theme-elevation-500);
+  margin-top: var(--base)
+}
+
+.mediaContent {
+  position: absolute; top:50%; left:50%;transform: translate(-50%, -50%);text-align: center;
+}
+.mediaContent h1.bannerHeading{font-size: 72px; font-weight: 700;line-height: 72px; font-family: "Roboto", sans-serif;color:#000}
+.imageWithTextStyle {
+  width: 100%;
+}
+
+.iwtMainWrapper{
+  width: 100%;
+  display: flex;
+}
+.mediaContent .bannerDescription{font-size: 18px; font-weight: 400;line-height: 25.2px; font-family: "Roboto", sans-serif;color:#000; margin-bottom: 50px;}
+.mediaContent .link{border: #000 solid 1px; font-size: 10px; font-weight: 500; text-transform: uppercase; line-height: 10px;background: #fff;padding: 16px 24px;}
+.mediaContent .link span{font-size: 10px!important;}
